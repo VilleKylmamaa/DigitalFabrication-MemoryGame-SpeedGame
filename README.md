@@ -1,5 +1,5 @@
 # Memory Game
-University of Oulu, Principles of Digital Fabrication course project
+University of Oulu, Principles of Digital Fabrication course project, 2021
 
 ## Work in Progress
 
@@ -11,13 +11,13 @@ The sequence is displayed through the LEDs lighting up, after which the player h
 
 First, we were inspired by the old Finnish game show ”Speden spelit” and were going to make a similar speed game with four buttons as seen on the show. Later on, we thought that a memory game would be more fun and decided to go with this memory game idea instead!
 
-### 28.3.2021 - Original Idea Drawing
+### 28.3. - Original Idea Drawing
 ![Original idea drawing](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/28.3%20-%20Original%20Idea%20Drawing.png)
 
-### 3.4.2021 - First Tinkercad Circuit Simulation
+### 3.4. - First Tinkercad Circuit Simulation
 ![Original idea drawing](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/3.4.%20-%20Tinkercad%20Circuit%20Design.png)
 
-### 3.4.2021 - First Arduino Build
+### 3.4. - First Arduino Build
 ![Original idea drawing](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/3.4%20-%20First%20Arduino%20Build.jpg)
 
 
