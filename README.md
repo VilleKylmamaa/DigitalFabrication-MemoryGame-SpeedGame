@@ -18,7 +18,7 @@ First, we were inspired by the old Finnish game show ”Speden spelit” and wer
 ![Original idea drawing](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/3.4.%20-%20Tinkercad%20Circuit%20Design.png)
 
 ### 3.4. - First Arduino Build
-![Original idea drawing](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/3.4%20-%20First%20Arduino%20Build.jpg)
+![Original idea drawing](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/3.4.%20-%20First%20Arduino%20Build.jpg)
 
 
 ## Memory Game Team
