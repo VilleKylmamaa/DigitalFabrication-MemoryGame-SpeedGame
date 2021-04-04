@@ -1,5 +1,5 @@
 # DigitalFabrication-MemoryGame
- 521159P:2 Principles of Digital Fabrication course project
+University of Oulu, Principles of Digital Fabrication course project
 
 ![Original idea drawing](https://raw.githubusercontent.com/ville-kylmamaa/DigitalFabrication-MemoryGame/main/Original%20Idea%20Drawing.png)
 
