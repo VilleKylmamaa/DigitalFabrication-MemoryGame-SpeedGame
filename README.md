@@ -22,7 +22,7 @@ Group is formed, members being Ville Kylmämaa, Lasse Rapo, Tommy Meriläinen, J
 
 ### Thursday 18/03:
 
-Idea is registered originally as Speed Game.
+Idea is originally registered as Speed Game.
 
 <br>
 
