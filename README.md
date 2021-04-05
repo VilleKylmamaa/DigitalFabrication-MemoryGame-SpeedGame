@@ -1,5 +1,6 @@
 # Memory Game
-University of Oulu, Principles of Digital Fabrication course project, 2021
+
+*University of Oulu, Principles of Digital Fabrication course project, 2021*
 
 ## Introduction
 
@@ -19,8 +20,8 @@ First, we were inspired by the old Finnish game show ”Speden spelit” and wer
 ### 3.4. - First Tinkercad Circuit Simulation
 ![Original idea drawing](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/3.4.%20-%20Tinkercad%20Circuit%20Design.png)
 
-### 3.4. - First Arduino Build
-![Original idea drawing](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/3.4.%20-%20First%20Arduino%20Build.jpg)
+### 4.4. - First Arduino Build
+![Original idea drawing](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/4.4.%20-%20First%20Arduino%20Build.jpg)
 
 
 ## Memory Game Team
