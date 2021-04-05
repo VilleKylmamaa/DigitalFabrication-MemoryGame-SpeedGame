@@ -14,7 +14,7 @@ First, we were inspired by the old Finnish game show ”Speden spelit” and wer
 
 <br>
 
-# Work in Progress, Weekly Report
+## Work in Progress, Weekly Report
 
 ### Monday 15/03:
 
