@@ -44,7 +44,7 @@ We got feedback on our project idea in the project ideas meeting. We decided to 
 A meeting was held with the team. We started sketching the first prototype and finished the introductory report. We considered the system requirements and different stages of the project.
 
 #### First sketch
-![First sketch](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/28.3%20-First%20Sketch.png)
+![First sketch](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/28.3%20-%20First%20Sketch.png)
 
 After a week of attending all the lectures we figured that the programming portion of the game would be the main part and perhaps the most difficult part of the project, as we discussed with Georgi and Iván in the project ideas meeting on Wednesday. 3D printing or laser cutting the casing for the game might also be challenging as not one of us has experience with these processes.
 
