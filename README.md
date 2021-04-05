@@ -16,8 +16,6 @@ First, we were inspired by the old Finnish game show ”Speden spelit” and wer
 
 # Work in Progress, Weekly Report
 
-<br>
-
 ### Monday 15/03:
 
 Group is formed, members being Ville Kylmämaa, Lasse Rapo, Tommy Meriläinen, Johannes Lampela. Ville got the basic idea of a speed game based on the old Finnish game show “Speden Spelit”.
