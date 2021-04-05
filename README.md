@@ -12,9 +12,9 @@ The sequence is displayed through the LEDs lighting up, after which the player h
 
 First, we were inspired by the old Finnish game show ”Speden spelit” and were going to make a similar speed game with four buttons as seen on the show. Later on, we thought that a memory game would be more fun and decided to go with this memory game idea instead!
 
-## *Work in Progress, Weekly Report*
+<br>
 
-## Start of the Course
+## Work in Progress, Weekly Report
  
 ### Monday 15/03:
 
@@ -24,7 +24,7 @@ Group is formed, members being Ville Kylmämaa, Lasse Rapo, Tommy Meriläinen, J
 
 Idea is registered originally as Speed Game.
 
----
+<br>
 
 ## Week 12
 
@@ -48,7 +48,7 @@ A meeting was held with the team. We started sketching the first prototype and f
 
 After a week of attending all the lectures we figured that the programming portion of the game would be the main part and perhaps the most difficult part of the project, as we discussed with Georgi and Iván in the project ideas meeting on Wednesday. 3D printing or laser cutting the casing for the game might also be challenging as not one of us has experience with these processes.
 
----
+<br>
 
 ## Week 13
  
@@ -78,8 +78,6 @@ The buttons are indeed small, banana for scale:
 
 Out of the 4 extra buttons we got one was accidentally different and should be switched later. Ville chose the higher version of the button so that 3D printing and inserting a cap for it would be easier.
 
----
-
 ### Saturday 03/04:
 
 Ville started designing the circuit on Tinkercad:
@@ -98,7 +96,7 @@ Ville replicated the simulation circuit on an actual breadboard and Arduino Uno:
 
 Ville transferred the code from the simulation to the Arduino. Unfortunately, the code doesn’t work quite as well on the Arduino. The game sometimes registers a failed input even though the input was assuredly correct. Why this happens on the Arduino and not in the simulation, is left to be determined.
 
----
+<br>
 
 ## Week 14
  
