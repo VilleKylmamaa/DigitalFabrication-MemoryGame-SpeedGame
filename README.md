@@ -12,52 +12,52 @@ The sequence is displayed through the LEDs lighting up, after which the player h
 
 First, we were inspired by the old Finnish game show ”Speden spelit” and were going to make a similar speed game with four buttons as seen on the show. Later on, we thought that a memory game would be more fun and decided to go with this memory game idea instead!
 
-## Work in Progress, Weekly Report
+## *Work in Progress, Weekly Report*
 
-### Start of the Course
+## Start of the Course
  
-#### Monday 15/03:
+### Monday 15/03:
 
 Group is formed, members being Ville Kylmämaa, Lasse Rapo, Tommy Meriläinen, Johannes Lampela. Ville got the basic idea of a speed game based on the old Finnish game show “Speden Spelit”.
 
-#### Thursday 18/03:
+### Thursday 18/03:
 
 Idea is registered originally as Speed Game.
 
 ---
 
-### Week 12
+## Week 12
 
-#### Goals of the week:
+### Goals of the week:
 
 * Attend lectures.
 * Decide which project idea to carry out.
 * Finish introductory report.
 * Consider the system requirements and different stages of the project to prepare for the coming weeks.
  
-#### Wednesday 24/03:
+### Wednesday 24/03:
 
 We got feedback on our project idea in the project ideas meeting. We decided to change the idea of the game to be a memory game instead of a speed game. Project was renamed to Memory Game.
 
-#### Sunday 28/03:
+### Sunday 28/03:
 
 A meeting was held with the team. We started sketching the first prototype and finished the introductory report. We considered the system requirements and different stages of the project.
 
-#### 28.3. - First drawn prototype
+### 28.3. - First drawn prototype
 ![First drawn prototype](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/28.3%20-%20Original%20Idea%20Drawing.png)
 
 After a week of attending all the lectures we figured that the programming portion of the game would be the main part and perhaps the most difficult part of the project, as we discussed with Georgi and Iván in the project ideas meeting on Wednesday. 3D printing or laser cutting the casing for the game might also be challenging as not one of us has experience with these processes.
 
 ---
 
-### Week 13
+## Week 13
  
-#### Goals of the week:
+### Goals of the week:
 
 * Start designing the circuit.
 * Start designing the game code.
  
-#### Tuesday 30/03:
+### Tuesday 30/03:
 
 We attended TA session to clarify issues we were unsure about:
 
@@ -66,7 +66,7 @@ We attended TA session to clarify issues we were unsure about:
 * For power we could use either 9V batteries, coin/button cells or lipo batteries.
 * For bigger buttons we could either order them or 3D print caps to the smaller buttons.
  
-#### Thursday 01/04:
+### Thursday 01/04:
 
 Ville fetched the electronic components:
 
@@ -80,7 +80,7 @@ Out of the 4 extra buttons we got one was accidentally different and should be s
 
 ---
 
-#### Saturday 03/04:
+### Saturday 03/04:
 
 Ville started designing the circuit on Tinkercad:
 
@@ -90,7 +90,7 @@ Keeping the circuit simple with just 4 LEDs and 4 buttons was enough to start pr
 
 Ville also programmed a preliminary working game logic for the simulation.
 
-#### Sunday 04/04:
+### Sunday 04/04:
 
 Ville replicated the simulation circuit on an actual breadboard and Arduino Uno:
 
@@ -100,9 +100,9 @@ Ville transferred the code from the simulation to the Arduino. Unfortunately, th
 
 ---
 
-### Week 14
+## Week 14
  
-#### Goals of the week:
+### Goals of the week:
 
 * Debug why the game doesn’t work quite as well on the Arduino as in the simulation.
 * Figure out how to connect the LCD to the circuit and how to program it.
