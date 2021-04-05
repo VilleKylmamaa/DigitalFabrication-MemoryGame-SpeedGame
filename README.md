@@ -107,3 +107,6 @@ Ville transferred the code from the simulation to the Arduino. Unfortunately, th
 * Further improve the code.
 * Start designing the laser cutting in Inkscape
 
+
+
+<br>
