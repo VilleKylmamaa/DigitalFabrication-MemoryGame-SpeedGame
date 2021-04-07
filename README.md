@@ -92,7 +92,7 @@ Ville also programmed a preliminary working game logic for the simulation.
 
 Ville replicated the simulation circuit on an actual breadboard and Arduino Uno:
 
-![Original idea drawing](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/4.4.%20-%20First%20Arduino%20Build.jpg)
+![First Arduino build](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/4.4.%20-%20First%20Arduino%20Build.jpg)
 
 Ville transferred the code from the simulation to the Arduino. Unfortunately, the code doesn’t work quite as well on the Arduino. The game sometimes registers a failed input even though the input was assuredly correct. Why this happens on the Arduino and not in the simulation, is left to be determined.
 
@@ -107,6 +107,20 @@ Ville transferred the code from the simulation to the Arduino. Unfortunately, th
 * Further improve the code.
 * Start designing the laser cutting in Inkscape
 
+### Wednesday 07/04:
 
+Ville fixed the button issue.
+
+The issue was that while the buttons in the Tinkercad simulation give you a signal that goes perfectly from 0 to 1 and vice versa, electronic components in the real world often can’t provide a perfect signal. The real buttons give a signal that when pressed down or released, the signal would sometimes quickly oscillate  multiple times between 0 and 1  during the transition.
+
+![Button bounce graph](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/7.4%20-%20Button%20Bounce.jpeg)
+
+Image source: https://embedds.com/software-debouncing-of-buttons/
+
+This leads to multiple inputs with a single press of a button which leads to an unenjoyable game that is lost because of an extra input. A single press should always give exactly one input. The issue was easy enough to take into account in the code.
+
+![Button debounce timer code](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/7.4%20-%20Button%20Fix.png)
+
+The solution was to use a debounce timer that resets if button bouncing happens during the transition and only lets the game check whether the input was correct or not after the debounce timer has exceeded the debounce delay, which was set to 50 milliseconds.
 
 <br>
