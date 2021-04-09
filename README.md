@@ -123,4 +123,14 @@ This leads to multiple inputs with a single press of a button which leads to an 
 
 The solution was to use a debounce timer that resets if button bouncing happens during the transition and only lets the game check whether the input was correct or not after the debounce timer has exceeded the debounce delay, which was set to 50 milliseconds.
 
+### Friday 09/04:
+
+Two of the LEDs, red and transparent, were overly bright. Bright enough to leave a spot in your vision after looking at them, making the game uncomfortable to play.
+
+Ville made the two LEDs less bright by changing the connections to PWM (Pulse-Width Modulation) pins on the Arduino and using analogWrite() instead of digitalWrite(). After a call to analogWrite(), a PWM pin will generate a steady rectangular wave of the specified duty cycle. Choosing a lower duty cycle makes the connected LED less bright. 
+
+
+
+
+
 <br>
