@@ -129,6 +129,27 @@ Two of the LEDs, red and transparent, were overly bright. Bright enough to leave
 
 Ville made the two LEDs less bright by changing the connections to PWM (Pulse-Width Modulation) pins on the Arduino and using analogWrite() instead of digitalWrite(). After a call to analogWrite(), a PWM pin will generate a steady rectangular wave of the specified duty cycle. Choosing a lower duty cycle makes the connected LED less bright. 
 
+### Saturday 10/04:
+
+Ville attempted to connect and program the LCD display through an I2C adapter. The attempt was unsuccessful. The LCD mostly doesn’t display anything except when the brightness/contrast screw on the back of the I2C is turned, the LCD produces glitches such as black boxes or random lines.
+
+![Glitching LCD display](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/10.4.%20-%20LCD%20glitch.jpg)
+
+All the connections should be correct. From I2C to Arduino Uno: GND to GND, VCC to 5V, SDA to A4, SCL to A5. The I2C address is 0x27 confirmed through a test. It’s trying to run just a basic hello world program, tested with multiple libraries available for the I2C. Is the LCD or the I2C faulty?
+
+Ville ran a diagnostic test program for LCD and I2C from an Arduino library called hd44780: https://www.arduino.cc/reference/en/libraries/hd44780/
+
+![LCD diagnostics](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/10.4.%20-%20LCD%20Diagnostics.png)
+
+The diagnostics program reports that I2C seems to be working and the connections are right, but the LCD is stuck in BUSY status and is therefore marked as not working.
+
+Later, Ville noticed the LCD is running hot and especially one of the black circles on the back of the LCD is hot enough to be painful to touch. There is likely a short circuit but it’s not clear where.
+
+### Sunday 11/04:
+
+Ville connected the buzzer to the circuit and programmed it to beep when the game displays the sequence or the player presses a button. The frequency of the beep for each LED is of course different. The frequencies were set up as C4, E4, G4, C5, i.e. the C major chord, for a delightful musical experience.
+
+The beeps really add to the game, making the sequence easier to remember and more fun to repeat.
 
 
 
