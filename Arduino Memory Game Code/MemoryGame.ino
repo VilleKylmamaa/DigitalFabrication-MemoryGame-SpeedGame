@@ -1,6 +1,3 @@
-#include <LiquidCrystal_I2C.h>
-#include <Wire.h>
-
 // LEDs
 const byte green = 12;
 const byte red  = 10;
