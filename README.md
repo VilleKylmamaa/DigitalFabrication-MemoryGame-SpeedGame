@@ -169,6 +169,8 @@ Additionally, the new LCD has RGB background lighting which can be animated with
 
 Ville fetched more jumper cables from Fablab to make all connections possible at the same time. 4 buttons, 4 LEDs, an LCD and a buzzer is quite a lot.
 
+![Memory Game video](https://github.com/VilleKylmamaa/DigitalFabrication-MemoryGame/blob/main/Progress%20Images/16.4.%20-%20Memory%20Game%20Video%20Compressed.gif?raw=true)
+
 The game works well. You can play as fast as you can and the game won’t take double inputs. The feedback from the buzzer makes the game more fun and helps you memorize the sequence. The LCD let’s you know how long the current sequence is and how many inputs you have given so far for the current sequence. Not to mention the totally amazing RGB animation!
 
 ### Sunday 18/04:
@@ -248,6 +250,8 @@ The sequence starts by growing after each 1000 milliseconds and gets 15 millisec
 Now that there are two games in the system, the player chooses which game to play after the turning the device on and after each game. The choice is made by clicking either the leftmost button for Memory Game or rightmost button for Speed Game, as prompted by the LCD and the two LEDs.
 
 Not to mention the high score system Ville added. Separate high scores for both games, of course. The high score is saved to the memory with the Arduino EEPROM library so that the high scores is saved even when the Arduino is turned off. After reaching a new high score, the game congratulates the player with a delightful tune, the chorus from Never Gonna Give You Up by Rick Astley, programmed to the piezo buzzer.
+
+![Speed Game](https://github.com/VilleKylmamaa/DigitalFabrication-MemoryGame/blob/main/Progress%20Images/2.5.%20-%20Speed%20Game%20Video%20Compressed.gif?raw=true)
 
 Ville also programmed easter egg songs to the piezo buzzer. The easter eggs are activated by holding one of the buttons down for two seconds in the start menu. Each of the 4 buttons has a different song.
 
