@@ -219,7 +219,7 @@ Link to Lasse’s Tinkercad design: https://www.tinkercad.com/things/fN4gwttubXP
 
 ![3D button design](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/27.4.%20-%203D%20Button%20System.png)
 
-The design 3D printed, Teerenpeli drink undelay for scale:
+The design 3D printed, Teerenpeli drink underlay for scale:
 
 ![Button design 3D printed](https://github.com/VilleKylmamaa/DigitalFabrication-MemoryGame/blob/main/Progress%20Images/30.4.%20-%20Button%20System%203D%20Printed.jpg?raw=true)
 
