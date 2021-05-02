@@ -14,7 +14,7 @@ First, we were inspired by the old Finnish game show ”Speden spelit” and wer
 
 <br>
 
-## Work in Progress, Weekly Report
+## Development Blog
 
 ### Monday 15/03:
 
@@ -150,6 +150,106 @@ Later, Ville noticed the LCD is running hot and especially one of the black circ
 Ville connected the buzzer to the circuit and programmed it to beep when the game displays the sequence or the player presses a button. The frequency of the beep for each LED is of course different. The frequencies were set up as C4, E4, G4, C5, i.e. the C major chord, for a delightful musical experience.
 
 The beeps really add to the game, making the sequence easier to remember and more fun to repeat.
+
+<br>
+
+## Week 14
+
+### Goals of the week:
+* Switch the LCD and get it working
+* Start designing the casing, laser cut it next week if possible
+
+### Wednesday 14/04:
+
+In the TA session this week we determined that the LCD was probably faulty. Ville fetched a new LCD from Fablab and it works mostly without issues. Curiously, the LCD only works properly when connected to 3.5V even though the manufacturer says that it should be connected to 5V on the Arduino. Connected to 5V the LCD doesn’t work, displaying just black boxes.
+
+Additionally, the new LCD has RGB background lighting which can be animated with code!
+
+### Friday 16/04:
+
+Ville fetched more jumper cables from Fablab to make all connections possible at the same time. 4 buttons, 4 LEDs, an LCD and a buzzer is quite a lot.
+
+The game works well. You can play as fast as you can and the game won’t take double inputs. The feedback from the buzzer makes the game more fun and helps you memorize the sequence. The LCD let’s you know how long the current sequence is and how many inputs you have given so far for the current sequence. Not to mention the totally amazing RGB animation!
+
+### Sunday 18/04:
+
+We started designing the casing with Inkscape as a team. The box will be laser cut.
+
+![Inkscape design started](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/18.4%20-%20Inkscape%20Design%20Started.png)
+
+There are a couple of challenges regarding the casing.
+
+1. The breadboard should be above the Arduino to make the box less deep. How will we securely attach a panel to the middle and make sure that all the wires can get from the Arduino to the breadboard?
+
+2. How could we make the LCD angle change with a servo?
+
+<br>
+
+## Week 16
+
+### Goals of the week:
+* Design the casing and the button system
+* Laser cut the casing and 3D print the button system
+
+Laser cutting the casing was postponed because everyone was busy and we realized that the button caps should also be designed before laser cutting so that we know the size of the hole required for the button caps. Lasse started designing the 3D model for the button caps.
+
+Ville attended the weekly TA session to ask some questions about the casing design. It was confirmed that making the LCD change angle with a servo would be optional given the scope of the rest of the project and because it’s not part of the main functionality.
+
+Ville also figured out that you can program music with the piezo buzzer by finding the frequencies of the notes:
+
+![Piezo buzzer music programming](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/23.4.%20-%20Piezo%20Buzzer%20Music%20Programming.png)
+
+The limitation is that the piezo buzzer can only play one note at a time. Thus, it can’t play chords. The music can’t be used during the game but perhaps it could be a reward for reaching a high score or some sort of an easter egg.
+
+Tommy and Johannes will laser cut the casing next week and Lasse will 3D print the caps for the buttons.
+
+<br>
+
+## Week 17
+
+### Goals of the week:
+* Design the casing and the button system
+* Laser cut the casing and 3D print the button system
+
+### Button design:
+
+The button system was expanded from this design by username “jeplans” on Thingiverse: https://www.thingiverse.com/thing:1909644
+
+Link to Lasse’s Tinkercad design: https://www.tinkercad.com/things/fN4gwttubXP-memory-game-buttons
+
+![3D button design](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/27.4.%20-%203D%20Button%20System.png)
+
+The design 3D printed, Teerenpeli drink undelay for scale:
+
+![Button design 3D printed](https://github.com/VilleKylmamaa/DigitalFabrication-MemoryGame/blob/main/Progress%20Images/30.4.%20-%20Button%20System%203D%20Printed.jpg?raw=true)
+
+This button system was designed for the shorter buttons so we switched our tall buttons for smaller ones at the Fablab. Every piece was printed with white plastic to save time with the 3D printing.
+
+### Casing:
+
+The casing was laser cut from plywood:
+
+![Button design 3D printed](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/27.4.%20-%20Laser%20Cut%20Casing.jpg)
+
+Unfortunately, the hole for the USB on the side and the holes for the LEDs on the top were forgotten.
+
+Ville added the extra holes to the design later.
+
+### Speed Game:
+
+The original idea for this project was to make a speed game but we decided to make a memory game instead. Well, the project has all the prerequisites for a speed game as well. It’s possible to have both!
+
+Ville programmed the speed game from “Speden Spelit” to the system. It was easy enough given that the code for an increasing sequence, debouncing buttons, checking if the input was correct or wrong, etc., had already been implemented for Memory Game.
+
+It was somewhat challenging figuring out how to let the user give inputs while the sequence is growing faster and faster, and getting displayed on the LEDs. The Arduino delay()-function couldn’t be used because it would pause the ability to give inputs. Instead, a solution using the millis()-function to calculate how much time had passed since the sequence last grew was used to make the game work properly.
+
+The sequence starts by growing after each 1000 milliseconds and gets 15 milliseconds faster after each time the sequence gets longer. The acceleration drops to 5 milliseconds faster after sequence length of 40 to ease the acceleration curve.
+
+Now that there are two games in the system, the player chooses which game to play after the turning the device on and after each game. The choice is made by clicking either the leftmost button for Memory Game or rightmost button for Speed Game, as prompted by the LCD and the two LEDs.
+
+Not to mention the high score system Ville added. Separate high scores for both games, of course. The high score is saved to the memory with the Arduino EEPROM library so that the high scores is saved even when the Arduino is turned off. After reaching a new high score, the game congratulates the player with a delightful tune, the chorus from Never Gonna Give You Up by Rick Astley, programmed to the piezo buzzer.
+
+Ville also programmed easter egg songs to the piezo buzzer. The easter eggs are activated by holding one of the buttons down for two seconds in the start menu. Each of the 4 buttons has a different song.
 
 
 
