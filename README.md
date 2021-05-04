@@ -307,7 +307,7 @@ Here is our first sketch and the final prototype:
 ![First sketch to final prototype](https://github.com/VilleKylmamaa/DigitalFabrication-MemoryGame/blob/main/Progress%20Images/3.5.%20-%20First%20Sketch%20to%20Finished%20Prototype.png?raw=true)
 
 
-### Lessons learned
+## Lessons learned
 
 **Skills**: Arduino embedded programming, electronics design, 2D design and operating a laser cutter, 3D design and operating a 3D printer.
 
