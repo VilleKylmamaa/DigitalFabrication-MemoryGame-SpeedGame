@@ -255,6 +255,30 @@ Not to mention the high score system Ville added. Separate high scores for both 
 
 Ville also programmed easter egg songs to the piezo buzzer. The easter eggs are activated by holding one of the buttons down for two seconds in the start menu. Each of the 4 buttons has a different song.
 
+### The final stretch
+
+Ville and Lasse went to Fablab to finish the project. What was left was just putting it all together.
+
+It wasn’t easy. Arduino Uno has just 3 GND pins and because we didn’t want to have the breadboard inside the box we needed 10 cables to go to GND. We thought it would be as simple as soldering some cables together, but the assistant at the Fablab told us that soldering so many cables together would be a doomed idea and we would need to produce a microcircuit for the task. We didn’t have the time for producing a microcircuit so we decided to leave the breadboard inside instead.
+
+The top of the box needed multiple iterations to get it right. There was a part on the side of the LCD that wasn’t considered before. Although the LCD fit through the hole, this extra part would make screwing the LCD impossible. The hole for the button system needed to be bigger. The breadboard was very difficult to fit in because we shouldn’t have needed it.
+
+Here’s a picture of the underside of the button system, where pins of the buttons are soldered:
+
+![Buttons soldered](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/3.5.%20-%20Buttons%20Soldered.jpg)
+
+After heroic effort of 5 hours in the Fablab, everything fit inside the box and everything that needed soldering was soldered. Note all the extra casing tops:
+
+![A complete casing and 5 extra casing tops](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/3.5.%20-%20All%20Done.jpg)
+ 
+Later, Ville also painted the buttons to the same colour as the corresponding LEDs.
+
+We did it! We have a fully functional Memory Game and Speed Game inside this lovely little box.
+
+This is the conclusion of this development blog. Here is the finished product:
+
+![Finished prototype](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/3.5.%20-%20Finished%20Prototype.jpg)
+
 
 
 
