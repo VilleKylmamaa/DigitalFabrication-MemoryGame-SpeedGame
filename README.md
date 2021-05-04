@@ -280,6 +280,55 @@ This is the conclusion of this development blog. Here is the finished product:
 ![Finished prototype](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/3.5.%20-%20Finished%20Prototype.jpg)
 
 
+## Wrap up of the project
+
+We set out to make a game with 4 LEDs, 4 buttons, a display and a buzzer using Arduino Uno microcontroller. Originally the project also included a servo motor to make the LCD change angle, but this idea was scrapped since it was not part of the main functionality and due to the scope of the rest of the project.
+
+The original idea was to a speed game similar to the one in the old Finnish game show “Speden Spelit”. We then decided to make a memory game instead. However, since the project had the all the required electronics for both games, eventually the project made a full circle and the original speed game idea was also programmed.
+
+The user decides which game to play in the start menu where the leftmost button should be pressed for Memory Game and the rightmost button for Speed Game.
+
+In Memory Game the player must repeat a randomly generated sequence displayed by the LEDs with the buttons. The sequence grows by one after each round and the whole sequence is displayed from the start after each round. The sequence is displayed always at the same calm speed and the player can take as much time as they want between the inputs. The game continues until the player gets the sequence wrong and the score is the number of rounds the player wins by getting the sequence right.
+
+In Speed Game the player also must repeat a randomly generated sequence displayed by the LEDs with the buttons. However, the sequence grows all the time, and the speed slightly accelerates after each time it grows. The player is constantly repeating the sequence as it grows until the player makes a mistake and the game is over. The score is the total amount of correct inputs given.
+
+To make the game more enjoyable and easier to follow, there is an LCD and a piezo buzzer in the system. The LCD shows the highest score ever reached when the game starts, the current score when the game is being played, prompts the user to choose one of the games in the start menu, tells when the game is over and if a new high score was set.
+
+The piezo buzzer makes a different sound for each LED when the LED is lit. The buzzer is programmed to play a certain frequency and for the LEDs the frequencies are set up as C4, E4, G4 and C5 notes from left to right. That’s a C major chord! When a new game is beginning it plays a quickly rising sound and a quickly falling sound when the game is lost. Not to mention it plays amazing easter egg songs activated by holding one of the buttons down in the start menu. The sound design in this game is totally out of this world.
+
+All that was quite a bit of embedded C and C++ based Arduino language programming!
+
+The button system was 3D printed to make buttons that look more interesting and are easier to press than the very small actual electronic component buttons that are under the system. The casing was laser cut from 2 mm thick plywood.
+
+The project advanced weekly and we accomplished an awesome prototype!
+
+Here is our first sketch and the final prototype:
+
+![First sketch to final prototype](https://github.com/VilleKylmamaa/DigitalFabrication-MemoryGame/blob/main/Progress%20Images/3.5.%20-%20First%20Sketch%20to%20Finished%20Prototype.png?raw=true)
+
+
+### Lessons learned
+
+**Skills**: Arduino embedded programming, electronics design, 2D design and operating a laser cutter, 3D design and operating a 3D printer.
+
+**Better work distribution would’ve been important**. Ville did majority of the work by doing all the electronics design, all the programming, a bunch of laser cutting, all the reports, attending TA sessions and holding both midterm and final presentations. Lasse made the 3D printed button system and together with Ville the heroic final stretch of putting everything together. Johannes and Tommy made the first iteration of the laser cut casing.
+
+Although, things such as programming are hard to divide. Sometimes what one programmer can do in a month, two can do in two months.
+
+**Laser cutting is fast and 3D printing is slow**. Almost no matter what you design, the laser cutter is going to cut it in the matter of few minutes. You can make a change and quickly cut a new piece. 3D printing on the other hand is very slow. Our button system didn’t have that much material and it still had to be done overnight and then one of the pieces still had to sit in some solution and be fetched later.
+
+**Making the casing and the button system should’ve started earlier**. There was no reason to wait so long before starting the design for them and making the first iteration. It could’ve been started basically as soon as we knew the size of our LCD, LEDs and buttons. This made our final stretch of putting it all together require heroic effort because we were running out of time. Because of this we also learned too late that we should have made a microcircuit instead of soldering multiple cables together, and since we didn’t have enough time to make a microcircuit we ended up having to include the breadboard which we were supposed to discard inside the casing.
+
+**Initiative is important and it’s good to ask questions as early as possible**.
+
+## Feedback
+
+This was a very unique course and it’s a fun introduction to the basic skills used in the course.
+
+The course requires a lot of initiative with driving your project forward and asking questions. This could be emphasized more at the start of the course. Especially first year students might lack initiative.
+
+The Moodle page of the course is quite confusing. Perhaps each lecture could be put in their own drop-down segment?
+
 
 
 <br>
