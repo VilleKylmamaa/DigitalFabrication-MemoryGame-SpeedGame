@@ -2,15 +2,50 @@
 
 *University of Oulu, Principles of Digital Fabrication course project, 2021*
 
-## Introduction
+## Introduction and explanation of the project
 
-Memory Game is a game where you have to remember and correctly input a sequence that grows each time the player gets it right.
+We set out to make a game with 4 LEDs, 4 buttons, a display and a buzzer using Arduino Uno microcontroller. Originally the project also included a servo motor to make the LCD change angle, but this idea was scrapped since it was not part of the main functionality and due to the scope of the rest of the project.
 
-The game includes 4 buttons, 4 LEDs and a liquid-crystal display, which are connected to an Arduino Uno unit through a breadboard. The game logic is programmed to the Arduino microcontroller.
+The original idea was to a speed game similar to the one in the old Finnish game show “Speden Spelit”. We then decided to make a memory game instead. However, since the project had the all the required electronics for both games, eventually the project made a full circle and the original speed game idea was also programmed.
 
-The sequence is displayed through the LEDs lighting up, after which the player has to input the same sequence with the corresponding buttons. If the input is correct the game will generate another sequence which is one digit longer than the previous one. The screen displays the score which is the current sequence length. The screen rises certain number of degrees when the game is turned on and goes back down when the game is turned off.
+The user decides which game to play in the start menu where the leftmost button should be pressed for Memory Game and the rightmost button for Speed Game.
 
-First, we were inspired by the old Finnish game show ”Speden spelit” and were going to make a similar speed game with four buttons as seen on the show. Later on, we thought that a memory game would be more fun and decided to go with this memory game idea instead!
+In Memory Game the player must repeat a randomly generated sequence displayed by the LEDs with the buttons. The sequence grows by one after each round and the whole sequence is displayed from the start after each round. The sequence is displayed always at the same calm speed and the player can take as much time as they want between the inputs. The game continues until the player gets the sequence wrong and the score is the number of rounds the player wins by getting the sequence right.
+
+In Speed Game the player also must repeat a randomly generated sequence displayed by the LEDs with the buttons. However, the sequence grows all the time, and the speed slightly accelerates after each time it grows. The player is constantly repeating the sequence as it grows until the player makes a mistake and the game is over. The score is the total amount of correct inputs given.
+
+To make the game more enjoyable and easier to follow, there is an LCD and a piezo buzzer in the system. The LCD shows the highest score ever reached when the game starts, the current score when the game is being played, prompts the user to choose one of the games in the start menu, tells when the game is over and if a new high score was set.
+
+The piezo buzzer makes a different sound for each LED when the LED is lit. The buzzer is programmed to play a certain frequency and for the LEDs the frequencies are set up as C4, E4, G4 and C5 notes from left to right. That’s a C major chord! When a new game is beginning it plays a quickly rising sound and a quickly falling sound when the game is lost. Not to mention it plays amazing easter egg songs activated by holding one of the buttons down in the start menu. The sound design in this game is totally out of this world.
+
+All that was quite a bit of embedded C and C++ based Arduino language programming!
+
+The button system was 3D printed to make buttons that look more interesting and are easier to press than the very small actual electronic component buttons that are under the system. The casing was laser cut from 2 mm thick plywood.
+
+The project advanced weekly and we accomplished an awesome prototype!
+
+Here is our first sketch and the final prototype:
+
+![First sketch to final prototype](https://github.com/VilleKylmamaa/DigitalFabrication-MemoryGame/blob/main/Progress%20Images/3.5.%20-%20First%20Sketch%20to%20Finished%20Prototype.png?raw=true)
+
+### Videos
+
+Memory Game with the high score fanfare: https://www.youtube.com/watch?v=84gJxdbrVfw&list=PLaXh4aINZpK3UAFl0ipgvpciPTIYi-pv6&index=1&ab_channel=VilleKylm%C3%A4maa
+
+Speed Game: https://www.youtube.com/watch?v=mnNzNzYEoZY&list=PLaXh4aINZpK3UAFl0ipgvpciPTIYi-pv6&index=2&ab_channel=VilleKylm%C3%A4maa
+
+### Easter eggs
+
+Here are the music easter eggs Ville programmed for the piezo buzzer. I’m holding the buzzer for better audio.
+
+Megalovania by Toby Fox: https://www.youtube.com/watch?v=YPllY2mjIPw&list=PLaXh4aINZpK3UAFl0ipgvpciPTIYi-pv6&index=3&ab_channel=VilleKylm%C3%A4maa
+
+Astronomia by Tony Igy and Vicetone, also known as Coffin Dance: https://www.youtube.com/watch?v=EJ6rxVDyQ3Y&list=PLaXh4aINZpK3UAFl0ipgvpciPTIYi-pv6&index=4&ab_channel=VilleKylm%C3%A4maa
+
+Master of Puppets by Metallica, Kirk Hammet’s solo: https://www.youtube.com/watch?v=3PkglK9Oo-k&list=PLaXh4aINZpK3UAFl0ipgvpciPTIYi-pv6&index=5&ab_channel=VilleKylm%C3%A4maa
+
+Never Gonna Give You Up by Rick Astley: https://www.youtube.com/watch?v=SF4I14ke4gY&list=PLaXh4aINZpK3UAFl0ipgvpciPTIYi-pv6&index=6&ab_channel=VilleKylm%C3%A4maa
+
 
 <br>
 
@@ -279,51 +314,6 @@ This is the conclusion of this development blog. Here is the finished product:
 
 ![Finished prototype](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/3.5.%20-%20Finished%20Prototype.jpg)
 
-
-## Wrap up of the project
-
-We set out to make a game with 4 LEDs, 4 buttons, a display and a buzzer using Arduino Uno microcontroller. Originally the project also included a servo motor to make the LCD change angle, but this idea was scrapped since it was not part of the main functionality and due to the scope of the rest of the project.
-
-The original idea was to a speed game similar to the one in the old Finnish game show “Speden Spelit”. We then decided to make a memory game instead. However, since the project had the all the required electronics for both games, eventually the project made a full circle and the original speed game idea was also programmed.
-
-The user decides which game to play in the start menu where the leftmost button should be pressed for Memory Game and the rightmost button for Speed Game.
-
-In Memory Game the player must repeat a randomly generated sequence displayed by the LEDs with the buttons. The sequence grows by one after each round and the whole sequence is displayed from the start after each round. The sequence is displayed always at the same calm speed and the player can take as much time as they want between the inputs. The game continues until the player gets the sequence wrong and the score is the number of rounds the player wins by getting the sequence right.
-
-In Speed Game the player also must repeat a randomly generated sequence displayed by the LEDs with the buttons. However, the sequence grows all the time, and the speed slightly accelerates after each time it grows. The player is constantly repeating the sequence as it grows until the player makes a mistake and the game is over. The score is the total amount of correct inputs given.
-
-To make the game more enjoyable and easier to follow, there is an LCD and a piezo buzzer in the system. The LCD shows the highest score ever reached when the game starts, the current score when the game is being played, prompts the user to choose one of the games in the start menu, tells when the game is over and if a new high score was set.
-
-The piezo buzzer makes a different sound for each LED when the LED is lit. The buzzer is programmed to play a certain frequency and for the LEDs the frequencies are set up as C4, E4, G4 and C5 notes from left to right. That’s a C major chord! When a new game is beginning it plays a quickly rising sound and a quickly falling sound when the game is lost. Not to mention it plays amazing easter egg songs activated by holding one of the buttons down in the start menu. The sound design in this game is totally out of this world.
-
-All that was quite a bit of embedded C and C++ based Arduino language programming!
-
-The button system was 3D printed to make buttons that look more interesting and are easier to press than the very small actual electronic component buttons that are under the system. The casing was laser cut from 2 mm thick plywood.
-
-The project advanced weekly and we accomplished an awesome prototype!
-
-Here is our first sketch and the final prototype:
-
-![First sketch to final prototype](https://github.com/VilleKylmamaa/DigitalFabrication-MemoryGame/blob/main/Progress%20Images/3.5.%20-%20First%20Sketch%20to%20Finished%20Prototype.png?raw=true)
-
-### Videos
-
-Memory Game with the high score fanfare: https://www.youtube.com/watch?v=84gJxdbrVfw&list=PLaXh4aINZpK3UAFl0ipgvpciPTIYi-pv6&index=1&ab_channel=VilleKylm%C3%A4maa
-
-Speed Game: https://www.youtube.com/watch?v=mnNzNzYEoZY&list=PLaXh4aINZpK3UAFl0ipgvpciPTIYi-pv6&index=2&ab_channel=VilleKylm%C3%A4maa
-
-### Easter eggs
-
-Here are the music easter eggs Ville programmed for the piezo buzzer. I’m holding the buzzer for better audio.
-
-Megalovania by Toby Fox: https://www.youtube.com/watch?v=YPllY2mjIPw&list=PLaXh4aINZpK3UAFl0ipgvpciPTIYi-pv6&index=3&ab_channel=VilleKylm%C3%A4maa
-
-Astronomia by Tony Igy and Vicetone, also known as Coffin Dance: https://www.youtube.com/watch?v=EJ6rxVDyQ3Y&list=PLaXh4aINZpK3UAFl0ipgvpciPTIYi-pv6&index=4&ab_channel=VilleKylm%C3%A4maa
-
-Master of Puppets by Metallica, Kirk Hammet’s solo: https://www.youtube.com/watch?v=3PkglK9Oo-k&list=PLaXh4aINZpK3UAFl0ipgvpciPTIYi-pv6&index=5&ab_channel=VilleKylm%C3%A4maa
-
-Never Gonna Give You Up by Rick Astley: https://www.youtube.com/watch?v=SF4I14ke4gY&list=PLaXh4aINZpK3UAFl0ipgvpciPTIYi-pv6&index=6&ab_channel=VilleKylm%C3%A4maa
-
 ## Lessons learned
 
 **Skills**: Arduino embedded programming, electronics design, 2D design and operating a laser cutter, 3D design and operating a 3D printer.
@@ -345,7 +335,6 @@ This was a very unique course and it’s a fun introduction to the basic skills 
 The course requires a lot of initiative with driving your project forward and asking questions. This could be emphasized more at the start of the course. Especially first year students might lack initiative.
 
 The Moodle page of the course is quite confusing. Perhaps each lecture could be put in their own drop-down segment?
-
 
 
 <br>
