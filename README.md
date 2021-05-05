@@ -4,6 +4,8 @@
 
 ## Introduction and explanation of the project
 
+![First sketch to final prototype](https://github.com/VilleKylmamaa/DigitalFabrication-MemoryGame/blob/main/Progress%20Images/3.5.%20-%20First%20Sketch%20to%20Finished%20Prototype.png?raw=true)
+
 We set out to make a game with 4 LEDs, 4 buttons, a display and a buzzer using Arduino Uno microcontroller. Originally the project also included a servo motor to make the LCD change angle, but this idea was scrapped since it was not part of the main functionality and due to the scope of the rest of the project.
 
 The original idea was to a speed game similar to the one in the old Finnish game show “Speden Spelit”. We then decided to make a memory game instead. However, since the project had the all the required electronics for both games, eventually the project made a full circle and the original speed game idea was also programmed.
@@ -23,10 +25,6 @@ All that was quite a bit of embedded C and C++ based Arduino language programmin
 The button system was 3D printed to make buttons that look more interesting and are easier to press than the very small actual electronic component buttons that are under the system. The casing was laser cut from 2 mm thick plywood.
 
 The project advanced weekly and we accomplished an awesome prototype!
-
-Here is our first sketch and the final prototype:
-
-![First sketch to final prototype](https://github.com/VilleKylmamaa/DigitalFabrication-MemoryGame/blob/main/Progress%20Images/3.5.%20-%20First%20Sketch%20to%20Finished%20Prototype.png?raw=true)
 
 ### Videos
 
