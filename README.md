@@ -2,6 +2,7 @@
 
 *University of Oulu, Principles of Digital Fabrication course project, 2021*
 
+
 ## Introduction and explanation of the project
 
 ![First sketch to final prototype](https://github.com/VilleKylmamaa/DigitalFabrication-MemoryGame/blob/main/Progress%20Images/3.5.%20-%20First%20Sketch%20to%20Finished%20Prototype.png?raw=true)
@@ -26,11 +27,13 @@ The button system was 3D printed to make buttons that look more interesting and 
 
 The project advanced weekly and we accomplished an awesome prototype!
 
+
 ### Videos
 
 Memory Game with the high score fanfare: https://www.youtube.com/watch?v=84gJxdbrVfw&list=PLaXh4aINZpK3UAFl0ipgvpciPTIYi-pv6&index=1&ab_channel=VilleKylm%C3%A4maa
 
 Speed Game: https://www.youtube.com/watch?v=mnNzNzYEoZY&list=PLaXh4aINZpK3UAFl0ipgvpciPTIYi-pv6&index=2&ab_channel=VilleKylm%C3%A4maa
+
 
 ### Easter eggs
 
@@ -43,6 +46,21 @@ Astronomia by Tony Igy and Vicetone, also known as Coffin Dance: https://www.you
 Master of Puppets by Metallica, Kirk Hammet’s solo: https://www.youtube.com/watch?v=3PkglK9Oo-k&list=PLaXh4aINZpK3UAFl0ipgvpciPTIYi-pv6&index=5&ab_channel=VilleKylm%C3%A4maa
 
 Never Gonna Give You Up by Rick Astley: https://www.youtube.com/watch?v=SF4I14ke4gY&list=PLaXh4aINZpK3UAFl0ipgvpciPTIYi-pv6&index=6&ab_channel=VilleKylm%C3%A4maa
+
+
+## Lessons learned
+
+**Skills**: Arduino embedded programming, electronics design, 2D design and operating a laser cutter, 3D design and operating a 3D printer.
+
+**Better work distribution would’ve been important**. Ville did majority of the work by doing all the electronics design, all the programming, a bunch of laser cutting, all the reports, attending TA sessions and holding both midterm and final presentations. Lasse made the 3D printed button system and together with Ville the heroic final stretch of putting everything together. Johannes and Tommy made the first iteration of the laser cut casing.
+
+Although, things such as programming are hard to divide. Sometimes what one programmer can do in a month, two can do in two months.
+
+**Laser cutting is fast and 3D printing is slow**. Almost no matter what you design, the laser cutter is going to cut it in the matter of few minutes. You can make a change and quickly cut a new piece. 3D printing on the other hand is very slow. Our button system didn’t have that much material and it still had to be done overnight and then one of the pieces still had to sit in some solution and be fetched later.
+
+**Making the casing and the button system should’ve started earlier**. There was no reason to wait so long before starting the design for them and making the first iteration. It could’ve been started basically as soon as we knew the size of our LCD, LEDs and buttons. This made our final stretch of putting it all together require heroic effort because we were running out of time. Because of this we also learned too late that we should have made a microcircuit instead of soldering multiple cables together, and since we didn’t have enough time to make a microcircuit we ended up having to include the breadboard which we were supposed to discard inside the casing.
+
+**Initiative is important and it’s good to ask questions as early as possible**.
 
 
 <br>
@@ -59,7 +77,9 @@ Idea is originally registered as Speed Game.
 
 <br>
 
+
 ## Week 12
+
 
 ### Goals of the week:
 
@@ -83,7 +103,9 @@ After a week of attending all the lectures we figured that the programming porti
 
 <br>
 
+
 ## Week 13
+
  
 ### Goals of the week:
 
@@ -131,7 +153,9 @@ Ville transferred the code from the simulation to the Arduino. Unfortunately, th
 
 <br>
 
+
 ## Week 14
+
  
 ### Goals of the week:
 
@@ -186,7 +210,9 @@ The beeps really add to the game, making the sequence easier to remember and mor
 
 <br>
 
+
 ## Week 14
+
 
 ### Goals of the week:
 * Switch the LCD and get it working
@@ -218,7 +244,9 @@ There are a couple of challenges regarding the casing.
 
 2. How could we make the LCD angle change with a servo?
 
+
 <br>
+
 
 ## Week 16
 
@@ -238,7 +266,9 @@ The limitation is that the piezo buzzer can only play one note at a time. Thus, 
 
 Tommy and Johannes will laser cut the casing next week and Lasse will 3D print the caps for the buttons.
 
+
 <br>
+
 
 ## Week 17
 
@@ -312,27 +342,6 @@ This is the conclusion of this development blog. Here is the finished product:
 
 ![Finished prototype](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/3.5.%20-%20Finished%20Prototype.jpg)
 
-## Lessons learned
-
-**Skills**: Arduino embedded programming, electronics design, 2D design and operating a laser cutter, 3D design and operating a 3D printer.
-
-**Better work distribution would’ve been important**. Ville did majority of the work by doing all the electronics design, all the programming, a bunch of laser cutting, all the reports, attending TA sessions and holding both midterm and final presentations. Lasse made the 3D printed button system and together with Ville the heroic final stretch of putting everything together. Johannes and Tommy made the first iteration of the laser cut casing.
-
-Although, things such as programming are hard to divide. Sometimes what one programmer can do in a month, two can do in two months.
-
-**Laser cutting is fast and 3D printing is slow**. Almost no matter what you design, the laser cutter is going to cut it in the matter of few minutes. You can make a change and quickly cut a new piece. 3D printing on the other hand is very slow. Our button system didn’t have that much material and it still had to be done overnight and then one of the pieces still had to sit in some solution and be fetched later.
-
-**Making the casing and the button system should’ve started earlier**. There was no reason to wait so long before starting the design for them and making the first iteration. It could’ve been started basically as soon as we knew the size of our LCD, LEDs and buttons. This made our final stretch of putting it all together require heroic effort because we were running out of time. Because of this we also learned too late that we should have made a microcircuit instead of soldering multiple cables together, and since we didn’t have enough time to make a microcircuit we ended up having to include the breadboard which we were supposed to discard inside the casing.
-
-**Initiative is important and it’s good to ask questions as early as possible**.
-
-## Feedback
-
-This was a very unique course and it’s a fun introduction to the basic skills used in the course.
-
-The course requires a lot of initiative with driving your project forward and asking questions. This could be emphasized more at the start of the course. Especially first year students might lack initiative.
-
-The Moodle page of the course is quite confusing. Perhaps each lecture could be put in their own drop-down segment?
 
 
 <br>
