@@ -306,6 +306,23 @@ Here is our first sketch and the final prototype:
 
 ![First sketch to final prototype](https://github.com/VilleKylmamaa/DigitalFabrication-MemoryGame/blob/main/Progress%20Images/3.5.%20-%20First%20Sketch%20to%20Finished%20Prototype.png?raw=true)
 
+### Videos
+
+Memory Game with the high score fanfare: https://www.youtube.com/watch?v=84gJxdbrVfw&list=PLaXh4aINZpK3UAFl0ipgvpciPTIYi-pv6&index=1&ab_channel=VilleKylm%C3%A4maa
+
+Speed Game: https://www.youtube.com/watch?v=mnNzNzYEoZY&list=PLaXh4aINZpK3UAFl0ipgvpciPTIYi-pv6&index=2&ab_channel=VilleKylm%C3%A4maa
+
+### Easter eggs
+
+Here are the music easter eggs Ville programmed for the piezo buzzer. I’m holding the buzzer for better audio.
+
+Megalovania by Toby Fox: https://www.youtube.com/watch?v=YPllY2mjIPw&list=PLaXh4aINZpK3UAFl0ipgvpciPTIYi-pv6&index=3&ab_channel=VilleKylm%C3%A4maa
+
+Astronomia by Tony Igy and Vicetone, also known as Coffin Dance: https://www.youtube.com/watch?v=EJ6rxVDyQ3Y&list=PLaXh4aINZpK3UAFl0ipgvpciPTIYi-pv6&index=4&ab_channel=VilleKylm%C3%A4maa
+
+Master of Puppets by Metallica, Kirk Hammet’s solo: https://www.youtube.com/watch?v=3PkglK9Oo-k&list=PLaXh4aINZpK3UAFl0ipgvpciPTIYi-pv6&index=5&ab_channel=VilleKylm%C3%A4maa
+
+Never Gonna Give You Up by Rick Astley: https://www.youtube.com/watch?v=SF4I14ke4gY&list=PLaXh4aINZpK3UAFl0ipgvpciPTIYi-pv6&index=6&ab_channel=VilleKylm%C3%A4maa
 
 ## Lessons learned
 
