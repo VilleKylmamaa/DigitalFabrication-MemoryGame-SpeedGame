@@ -65,7 +65,7 @@ Although, things such as programming are hard to divide. Sometimes what one prog
 
 <br>
 
-## Development Blog
+# Development Blog
 
 ### Monday 15/03:
 
