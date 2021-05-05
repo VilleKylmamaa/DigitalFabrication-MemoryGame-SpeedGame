@@ -342,6 +342,8 @@ This is the conclusion of this development blog. Here is the finished product:
 
 ![Finished prototype](https://raw.githubusercontent.com/VilleKylmamaa/DigitalFabrication-MemoryGame/main/Progress%20Images/3.5.%20-%20Finished%20Prototype.jpg)
 
+Videos are found in the introduction section at the start.
+
 
 
 <br>
