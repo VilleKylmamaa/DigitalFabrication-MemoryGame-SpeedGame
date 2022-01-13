@@ -1,4 +1,4 @@
-# Memory Game & Speed Game
+# Digital Fabrication: Memory Game & Speed Game
 
 *University of Oulu, Principles of Digital Fabrication course project, 2021*
 
